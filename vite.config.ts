@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/vite-project/',
+  base: 'https://kiminamo/github.io/personalities',
 });
