@@ -2,14 +2,13 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.io/kiminamo/personalities",
+  "homepage": "https://kiminamo/github.io/personalities",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
